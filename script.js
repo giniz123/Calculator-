@@ -36,6 +36,5 @@ const displayfunc = (string) => {
 
 const calculation = () => {
   const total = eval(displayString);
-  displayString = total;
-  return displayfunc(displayString);
+  return displayfunc(total);
 };
